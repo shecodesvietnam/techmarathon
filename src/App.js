@@ -136,10 +136,10 @@ function App() {
 								với nhiều người hơn, website chính là một hình thức đó.
 							</p>
 							<p className='paragraph'>
-								499.000VND cho một khóa học lập trình web là mức giá ưu đãi từ
-								MindX với các học viên của SheCodes với mong muốn đem công nghệ
-								tiếp cận nhiều hơn. Trong khuôn khổ Tech Marathon - khóa học
-								code cho newbie theo dạng mentoring step-by-step, bạn sẽ:
+								499.000VND cho một khóa học lập trình web là ưu đãi từ SheCodes
+								với các học viên với mong muốn đem công nghệ tiếp cận nhiều hơn.
+								Trong khuôn khổ Tech Marathon - khóa học code cho newbie theo
+								dạng mentoring step-by-step, bạn sẽ:
 							</p>
 							<ul className='u-size-16 feature-list'>
 								<li>
@@ -178,7 +178,7 @@ function App() {
 							<ul className='u-size-16 feature-list'>
 								<li>Q&A: Hỏi đáp</li>
 								<li>Giờ chữa bài và định hướng tư duy</li>
-								<li>Group học tập online:</li>
+								<li>Group học tập online</li>
 								<li>
 									Tương tác trong giờ học: hình ảnh, âm thanh, công nghệ. Biết
 									đâu học xong bạn lại rinh được vài tips, trang web hay ho có
@@ -217,7 +217,6 @@ function App() {
 									Ai cũng có thể hiểu được, nhất là các bạn chưa có nhiều kinh
 									nghiệm về code;
 								</li>
-								<li>Nhớ được nhiều nhất có thể;</li>
 								<li>
 									Ứng dụng trực quan, bạn học làm web nên bạn học xong sẽ code
 									ra một trang web!
