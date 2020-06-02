@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bac6ccc4366498b3e1543dc93d982b00",
+    "revision": "5b8be364b7235957fab57f0dcd5f35c2",
     "url": "/techmarathon/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/techmarathon/static/css/2.d34346ea.chunk.css"
   },
   {
-    "revision": "92b174411ec9c81e65eb",
+    "revision": "240cd9949c3b372a532c",
     "url": "/techmarathon/static/css/main.710c4d7b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/techmarathon/static/js/2.6220467f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "92b174411ec9c81e65eb",
-    "url": "/techmarathon/static/js/main.258bf435.chunk.js"
+    "revision": "240cd9949c3b372a532c",
+    "url": "/techmarathon/static/js/main.30bd73b3.chunk.js"
   },
   {
     "revision": "7d869a80cb927d863ad0",

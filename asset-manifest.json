@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/techmarathon/static/css/main.710c4d7b.chunk.css",
-    "main.js": "/techmarathon/static/js/main.258bf435.chunk.js",
-    "main.js.map": "/techmarathon/static/js/main.258bf435.chunk.js.map",
+    "main.js": "/techmarathon/static/js/main.30bd73b3.chunk.js",
+    "main.js.map": "/techmarathon/static/js/main.30bd73b3.chunk.js.map",
     "runtime-main.js": "/techmarathon/static/js/runtime-main.c7b0b36d.js",
     "runtime-main.js.map": "/techmarathon/static/js/runtime-main.c7b0b36d.js.map",
     "static/css/2.d34346ea.chunk.css": "/techmarathon/static/css/2.d34346ea.chunk.css",
     "static/js/2.6220467f.chunk.js": "/techmarathon/static/js/2.6220467f.chunk.js",
     "static/js/2.6220467f.chunk.js.map": "/techmarathon/static/js/2.6220467f.chunk.js.map",
     "index.html": "/techmarathon/index.html",
-    "precache-manifest.22e5c52942ccc4424b3194fc7c03b37a.js": "/techmarathon/precache-manifest.22e5c52942ccc4424b3194fc7c03b37a.js",
+    "precache-manifest.334cc06f7183425168937ceaac9a9592.js": "/techmarathon/precache-manifest.334cc06f7183425168937ceaac9a9592.js",
     "service-worker.js": "/techmarathon/service-worker.js",
     "static/css/2.d34346ea.chunk.css.map": "/techmarathon/static/css/2.d34346ea.chunk.css.map",
     "static/css/main.710c4d7b.chunk.css.map": "/techmarathon/static/css/main.710c4d7b.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.d34346ea.chunk.css",
     "static/js/2.6220467f.chunk.js",
     "static/css/main.710c4d7b.chunk.css",
-    "static/js/main.258bf435.chunk.js"
+    "static/js/main.30bd73b3.chunk.js"
   ]
 }
