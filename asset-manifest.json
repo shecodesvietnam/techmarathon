@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/techmarathon/static/css/main.710c4d7b.chunk.css",
+    "main.js": "/techmarathon/static/js/main.258bf435.chunk.js",
+    "main.js.map": "/techmarathon/static/js/main.258bf435.chunk.js.map",
+    "runtime-main.js": "/techmarathon/static/js/runtime-main.c7b0b36d.js",
+    "runtime-main.js.map": "/techmarathon/static/js/runtime-main.c7b0b36d.js.map",
+    "static/css/2.d34346ea.chunk.css": "/techmarathon/static/css/2.d34346ea.chunk.css",
+    "static/js/2.6220467f.chunk.js": "/techmarathon/static/js/2.6220467f.chunk.js",
+    "static/js/2.6220467f.chunk.js.map": "/techmarathon/static/js/2.6220467f.chunk.js.map",
+    "index.html": "/techmarathon/index.html",
+    "precache-manifest.22e5c52942ccc4424b3194fc7c03b37a.js": "/techmarathon/precache-manifest.22e5c52942ccc4424b3194fc7c03b37a.js",
+    "service-worker.js": "/techmarathon/service-worker.js",
+    "static/css/2.d34346ea.chunk.css.map": "/techmarathon/static/css/2.d34346ea.chunk.css.map",
+    "static/css/main.710c4d7b.chunk.css.map": "/techmarathon/static/css/main.710c4d7b.chunk.css.map",
+    "static/js/2.6220467f.chunk.js.LICENSE.txt": "/techmarathon/static/js/2.6220467f.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/techmarathon/static/media/precoding-3.11b199e5.jpg",
+    "static/media/all.css": "/techmarathon/static/media/fa-solid-900.ec763292.svg",
+    "static/media/icon-font.css": "/techmarathon/static/media/linea-basic-10.e6763f00.ttf",
+    "static/media/logo-2020.png": "/techmarathon/static/media/logo-2020.fe77db86.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7b0b36d.js",
+    "static/css/2.d34346ea.chunk.css",
+    "static/js/2.6220467f.chunk.js",
+    "static/css/main.710c4d7b.chunk.css",
+    "static/js/main.258bf435.chunk.js"
+  ]
+}
