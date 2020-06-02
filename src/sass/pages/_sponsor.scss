@@ -1,0 +1,12 @@
+.article-sponsor {
+	background-color: $color-extra-black;
+	padding-bottom: 10rem;
+
+	section {
+		margin-top: 15rem;
+
+		&:not(:first-child) {
+			border-top: 1px solid $color-grey-dark;
+		}
+	}
+}

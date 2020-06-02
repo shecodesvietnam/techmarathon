@@ -1,0 +1,70 @@
+.btn {
+	&,
+	&:link,
+	&:visited {
+		display: inline-block;
+		text-decoration: none;
+		font-size: 1.6rem;
+		padding: 1.5rem;
+		border-radius: 2rem;
+		transition: all 0.2s;
+		border: none;
+		cursor: pointer;
+	}
+
+	&:hover {
+		transform: translateY(-3px);
+		box-shadow: 0 0.5rem 1rem rgba($color-extra-black, 0.2);
+	}
+
+	&:active,
+	&:focus {
+		outline: none;
+		transform: translateY(-1px);
+		box-shadow: 0 0.5rem 1rem rgba($color-extra-black, 0.2);
+	}
+
+	&--primary {
+		background-image: linear-gradient(
+			to right,
+			$color-primary,
+			$color-secondary
+		);
+		color: $color-white;
+	}
+
+	&--white {
+		color: $color-grey-dark;
+		background-color: $color-white;
+	}
+}
+
+.btn-text {
+	display: inline-block;
+
+	&:link,
+	&:visited {
+		text-decoration: none;
+		font-size: 1.6rem;
+
+		background-image: linear-gradient(
+			to right,
+			$color-primary,
+			$color-secondary
+		);
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
+		transition: all 0.4s;
+	}
+
+	&:hover,
+	&:active,
+	&:focus {
+		&::after {
+			content: ' →';
+		}
+
+		border-bottom: 1px solid $color-primary;
+	}
+}

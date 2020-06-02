@@ -1,0 +1,59 @@
+.question {
+	background-color: $color-extra-black;
+	margin-bottom: 1rem;
+	position: relative;
+	overflow: hidden;
+
+	&__text {
+		font-size: 1.6rem;
+		font-weight: 500;
+		padding: 2rem;
+		border: 0.15rem solid $color-grey-dark;
+		&:hover {
+			background-color: $color-grey-dark;
+		}
+	}
+
+	&__checkbox {
+		@for $i from 1 to 14 {
+			&--#{$i} {
+				display: none;
+
+				&:checked ~ .answer--#{$i} {
+					max-height: 100vh;
+					font-size: 1.6rem;
+					font-weight: 500;
+					padding: 2rem;
+					border: 0.15rem solid $color-grey-dark;
+					transition: max-height 0.35s;
+				}
+
+				&:checked ~ .question__text {
+					background-color: $color-grey-dark;
+				}
+			}
+		}
+	}
+
+	&__button {
+		display: block;
+		cursor: pointer;
+
+		&::after {
+			transition: max-height 0.35s;
+		}
+	}
+}
+
+.answer {
+	@for $i from 1 to 14 {
+		&--#{$i} {
+			max-height: 0;
+		}
+	}
+}
+
+.faqs {
+	background-color: $color-extra-black;
+	padding-bottom: 5rem;
+}

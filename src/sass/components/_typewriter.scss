@@ -1,0 +1,16 @@
+.code {
+	display: inline-block;
+	border-right: 2px solid rgba(255, 255, 255, 0.75);
+	white-space: nowrap;
+	overflow: hidden;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Animation */
+.typewriter {
+	animation: typewriter 4s steps(44) 1s 1 normal both,
+		blinkTextCursor 500ms steps(44) infinite normal;
+}

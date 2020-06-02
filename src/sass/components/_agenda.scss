@@ -1,0 +1,34 @@
+.agenda {
+	font-size: 2rem;
+
+	&__timeline {
+		.row {
+			&:not(:first-child) {
+				margin-top: -6rem;
+
+				@include respond(tab-port) {
+					margin-top: initial;
+				}
+			}
+
+			.col-1-of-3 {
+				text-align: right;
+			}
+
+			.col-2-of-3 {
+				text-align: left;
+			}
+
+			@include respond(tab-port) {
+				.col-1-of-3,
+				.col-2-of-3 {
+					text-align: center;
+				}
+
+				.col-2-of-3 {
+					margin-top: -4.5rem;
+				}
+			}
+		}
+	}
+}

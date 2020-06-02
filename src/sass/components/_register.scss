@@ -1,0 +1,10 @@
+.register {
+	&-box {
+		@include absCenter;
+		z-index: 9999;
+	}
+
+	&-heading {
+		font-size: 5rem;
+	}
+}

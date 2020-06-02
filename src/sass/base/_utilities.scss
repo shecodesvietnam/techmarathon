@@ -1,0 +1,130 @@
+.u-center-text {
+	text-align: center !important;
+}
+
+.u-right-text {
+	text-align: right !important;
+}
+
+.u-left-text {
+	text-align: left !important;
+}
+
+.u-size-20 {
+	font-size: 2rem !important;
+}
+
+.u-size-16 {
+	font-size: 1.6rem !important;
+}
+
+.u-size-14 {
+	font-size: 1.4rem !important;
+}
+
+.u-center-box {
+	clear: both;
+	float: none !important;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.u-margin-bottom-small {
+	margin-bottom: 1.5rem !important;
+}
+
+.u-margin-bottom-medium {
+	margin-bottom: 4rem !important;
+
+	@include respond(tab-port) {
+		margin-bottom: 3rem !important;
+	}
+}
+
+.u-margin-bottom-big {
+	margin-bottom: 8rem !important;
+
+	@include respond(tab-port) {
+		margin-bottom: 5rem !important;
+	}
+}
+
+.u-margin-top-extra-small {
+	margin-top: 0.2rem !important;
+}
+
+.u-margin-top-small {
+	margin-bottom: 0.5rem !important;
+}
+
+.u-margin-top-medium {
+	margin-top: 4rem !important;
+
+	@include respond(tab-port) {
+		margin-top: 3rem !important;
+	}
+}
+
+.u-margin-top-big {
+	margin-top: 6rem !important;
+}
+
+.u-margin-top-huge {
+	margin-top: 10rem !important;
+}
+
+.u-padding-top-extra-small {
+	padding-top: 0.2rem !important;
+}
+
+.u-padding-top-small {
+	padding-top: 1rem !important;
+}
+
+.u-padding-top-medium {
+	padding-top: 4rem !important;
+
+	@include respond(tab-port) {
+		padding-top: 3rem !important;
+	}
+}
+
+.u-padding-top-big {
+	padding-top: 8rem !important;
+
+	@include respond(tab-port) {
+		padding-top: 5rem !important;
+	}
+}
+
+.u-padding-top-huge {
+	padding-top: 10rem !important;
+}
+
+.u-padding-bottom-extra-small {
+	padding-bottom: 0.2rem !important;
+}
+
+.u-padding-bottom-medium {
+	padding-bottom: 4rem !important;
+
+	@include respond(tab-port) {
+		padding-bottom: 3rem !important;
+	}
+}
+
+.u-padding-bottom-extra-big {
+	padding-bottom: 20rem !important;
+
+	@include respond(tab-port) {
+		padding-bottom: 17rem !important;
+	}
+}
+
+.u-color-black {
+	color: $color-black !important;
+}
+
+.u-normal-text {
+	text-transform: initial !important;
+}

@@ -1,0 +1,68 @@
+.header__tm-image-box {
+	width: 100%;
+	margin-top: 6rem;
+	height: 92vh;
+	background-image: linear-gradient(
+			to right,
+			rgba($color-black, 0.8),
+			rgba($color-extra-black, 0.8)
+		),
+		url('../../assets/precoding-1.png');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.heading__tm-text-box {
+	@include absCenter;
+	width: 100%;
+}
+
+.article-tm-about {
+	background-color: $color-extra-black;
+	padding-top: 15rem;
+	padding-bottom: 20rem;
+}
+
+.article-features--special {
+	background-color: $color-extra-black;
+	padding-top: 15rem;
+	padding-bottom: 10rem;
+}
+
+.article-progress {
+	background-image: linear-gradient(
+			to right,
+			rgba($color-black, 0.8),
+			rgba($color-extra-black, 0.8)
+		),
+		url('../../assets/precoding-2.png');
+	background-position: center;
+	background-size: cover;
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+	text-align: center;
+}
+
+.article-form {
+	padding-top: 15rem;
+	padding-bottom: 10rem;
+	background-image: linear-gradient(
+			to right,
+			rgba($color-black, 0.8),
+			rgba($color-extra-black, 0.8)
+		),
+		url('../../assets/precoding-3.jpg');
+	background-position: center;
+	background-size: cover;
+
+	.card {
+		opacity: 0.7;
+	}
+}
+
+.article-contact {
+	padding-top: 15rem;
+	padding-bottom: 10rem;
+	background-color: $color-extra-black;
+}

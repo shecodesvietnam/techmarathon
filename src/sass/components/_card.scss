@@ -1,0 +1,37 @@
+.card {
+	background-color: $color-extra-black;
+	border: 1px solid $color-primary;
+	padding: 2rem;
+
+	&__shape {
+		width: 15rem;
+		height: 15rem;
+		margin: 0 auto;
+		overflow: hidden;
+
+		@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+			-webkit-shape-outside: circle(50% at 50% 50%);
+			shape-outside: circle(50% at 50% 50%);
+			-webkit-clip-path: circle(50% at 50% 50%);
+			clip-path: circle(50% at 50% 50%);
+			border-radius: none;
+		}
+	}
+
+	&__image {
+		transform: translate(-50%, -15%);
+	}
+
+	&__caption {
+		margin-top: 100rem;
+	}
+
+	&__text {
+		margin-top: 2rem;
+		font-size: 1.6rem;
+	}
+
+	&__footer {
+		margin-top: 1rem;
+	}
+}
